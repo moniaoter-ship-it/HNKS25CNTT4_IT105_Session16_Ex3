@@ -1,0 +1,67 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Trang-1" id="GyN4uC02rN9Qs3PEAUJ0">
+    <mxGraphModel dx="1288" dy="760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="kdeeniuoNPH52eOwldwd-2" parent="1" style="swimlane;horizontal=0;startSize=32;fillColor=#dae8fc;strokeColor=#6c8ebf;fontStyle=1;html=1;" value="KHU_VUC" vertex="1">
+          <mxGeometry height="190" width="300" x="20" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-3" parent="kdeeniuoNPH52eOwldwd-2" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="&amp;nbsp;MaKhuVuc&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font style=&quot;font-weight:normal&quot;&gt;PK&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="280" x="20" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-4" parent="kdeeniuoNPH52eOwldwd-2" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="TenKhuVuc" vertex="1">
+          <mxGeometry height="40" width="280" x="20" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-6" parent="1" style="swimlane;horizontal=0;startSize=32;fillColor=#d5e8d4;strokeColor=#82b366;fontStyle=1;html=1;" value="CAN_HO" vertex="1">
+          <mxGeometry height="240" width="340" x="480" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-7" parent="kdeeniuoNPH52eOwldwd-6" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="&amp;nbsp;MaCH&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&amp;nbsp;&lt;font style=&quot;font-weight:normal&quot;&gt;PK&lt;/font&gt;" vertex="1">
+          <mxGeometry height="38" width="320" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-8" parent="kdeeniuoNPH52eOwldwd-6" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="DienTich" vertex="1">
+          <mxGeometry height="38" width="320" x="30" y="86" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-9" parent="kdeeniuoNPH52eOwldwd-6" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="SoTang" vertex="1">
+          <mxGeometry height="38" width="320" x="30" y="132" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-10" parent="kdeeniuoNPH52eOwldwd-6" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="MaKhuVuc&lt;br&gt;&lt;font style=&quot;font-weight:normal&quot;&gt;FK → KHU_VUC&lt;/font&gt;" vertex="1">
+          <mxGeometry height="48" width="320" x="30" y="170" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-11" parent="1" style="swimlane;horizontal=0;startSize=32;fillColor=#fff2cc;strokeColor=#d6b656;fontStyle=1;html=1;" value="HOP_DONG_THUE" vertex="1">
+          <mxGeometry height="250" width="360" x="1000" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-12" parent="kdeeniuoNPH52eOwldwd-11" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="MaHD&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;font style=&quot;font-weight:normal&quot;&gt;PK&lt;/font&gt;" vertex="1">
+          <mxGeometry height="40" width="340" x="30" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-13" parent="kdeeniuoNPH52eOwldwd-11" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="NgayBatDau" vertex="1">
+          <mxGeometry height="40" width="340" x="30" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-14" parent="kdeeniuoNPH52eOwldwd-11" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="NgayKetThuc" vertex="1">
+          <mxGeometry height="40" width="340" x="30" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-15" parent="kdeeniuoNPH52eOwldwd-11" style="text;html=1;align=left;verticalAlign=middle;spacingLeft=12;strokeColor=none;fillColor=none;" value="MaCH&lt;br&gt;&lt;font style=&quot;font-weight:normal&quot;&gt;FK, UNIQUE → CAN_HO&lt;/font&gt;" vertex="1">
+          <mxGeometry height="52" width="340" x="30" y="168" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-16" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;fontStyle=1;" value="THUỘC VỀ&lt;br&gt;1 — N" vertex="1">
+          <mxGeometry height="80" width="100" x="350" y="220" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-17" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;fontStyle=1;" value="CÓ HIỆU LỰC&lt;br&gt;1 — 1 tùy chọn" vertex="1">
+          <mxGeometry height="90" width="120" x="850" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-18" edge="1" parent="1" source="kdeeniuoNPH52eOwldwd-2" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" target="kdeeniuoNPH52eOwldwd-16" value="0..N">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-19" edge="1" parent="1" source="kdeeniuoNPH52eOwldwd-16" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" target="kdeeniuoNPH52eOwldwd-6" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-20" edge="1" parent="1" source="kdeeniuoNPH52eOwldwd-6" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" target="kdeeniuoNPH52eOwldwd-17" value="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kdeeniuoNPH52eOwldwd-21" edge="1" parent="1" source="kdeeniuoNPH52eOwldwd-17" style="edgeStyle=orthogonalEdgeStyle;rounded=1;html=1;endArrow=none;strokeWidth=2;" target="kdeeniuoNPH52eOwldwd-11" value="0..1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
